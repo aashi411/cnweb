@@ -70,16 +70,12 @@ const RegistrationForm = () => {
           numberOfPieces={400}
         />
       )}
-      {/* Use Next.js Link for client-side navigation */}
-      <Link href="/" passHref legacyBehavior>
-        <a>
-          <img
-            src="/CodingNinjas.png"
-            alt="Logo"
-            className="absolute top-4 left-4 h-auto z-20 w-[160px] sm:w-[190px] drop-shadow-xl cursor-pointer"
-          />
-        </a>
-      </Link>
+      <img
+        src="/CodingNinjas.png"
+        alt="Logo"
+        className="absolute top-4 left-4 h-auto z-20 w-[160px] sm:w-[190px] drop-shadow-xl cursor-pointer"
+        onClick={() => (window.location.href = "/")}
+      />
       {/* Overlay for readability */}
       <div className="absolute inset-0 bg-gradient-to-br from-black/30 via-white/10 to-orange-100/10 z-0" />
       <div className="relative z-10 flex flex-col items-center w-full md:max-w-xl max-w-xl px-2 sm:px-8 pt-16 pb-8">
