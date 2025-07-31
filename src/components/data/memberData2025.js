@@ -504,7 +504,7 @@ export const domains = {
     lead: {
       name: "Ayush Lohia",
       role: "LEAD",
-      image: "/MARKETING_Ayush_Lohia.png",
+      image: "/MARKETING_Ayush_Lohia.jpg",
       social: {
         instagram: "#",
         linkedin: "https://linkedin.com/in/ayushlohia15704/",
